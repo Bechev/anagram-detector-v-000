@@ -5,9 +5,9 @@ class Anagram
   end
 
   def match(array_anagrams)
-    sorted_anagram = @anagram.split("").sort
+    sorted_anagram = @anagram.chars.sort
     array_anagrams.each{|element|
-      if element.split("").sort == sorted_anagram
+      if element.chars.sort == sorted_anagram
         return element
       else return []
       end
