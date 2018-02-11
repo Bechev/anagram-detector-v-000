@@ -8,7 +8,7 @@ class Anagram
     sorted_anagram = @anagram.chars.sort
     array_anagrams.each{|element|
       if element.chars.sort == sorted_anagram
-        return element
+        return [element]
       else
         return []
       end
