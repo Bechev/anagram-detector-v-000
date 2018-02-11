@@ -9,7 +9,8 @@ class Anagram
     array_anagrams.each{|element|
       if element.chars.sort == sorted_anagram
         return element
-      else return []
+      else
+        return []
       end
     }
   end
