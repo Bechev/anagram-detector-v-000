@@ -4,4 +4,7 @@ class Anagram
     @anagram = anagram
   end
 
+  def match(array_anagrams)
+    sorted_anagram = @anagram.split("").sort
+
 end
