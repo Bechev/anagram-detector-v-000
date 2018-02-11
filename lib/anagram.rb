@@ -1,7 +1,7 @@
 # Your code goes here!
 class Anagram
   def initialize(anagram)
-    @anagram=word
+    @anagram = anagram
   end
 
 end
